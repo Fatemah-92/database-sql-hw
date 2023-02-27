@@ -117,4 +117,8 @@
             ⌲delete from order_products where product_id='0001';
             ⌲delete from  products where id='0001';
 
+    8. Add age column to users table.
+            ⌲alter table users add column age int;
+            ⌲update users set age= 18 where id= 1;
+            
 ------------------------------------------------------THE END------------------------------------------------------
